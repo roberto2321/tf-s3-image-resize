@@ -1,0 +1,8 @@
+bucket_name          = "watersport-dev-image"
+lambda_function_name = "image-resizer"
+lambda_file          = "Lambda_Deploy.zip"
+pip_package          = "arn:aws:lambda:eu-west-1:770693421928:layer:Klayers-p38-Pillow:3"
+origin-id            = "myS3Origin"
+origin-id-comment    = "cloud front origin id- 1"
+distribution-comment = "S3 Cloudfront distribution"
+price_class          = "PriceClass_100"
